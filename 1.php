@@ -19,7 +19,10 @@
 
     $test = $_GET["korea"];
     echo $test.$a;
-    echo $test.$a;echo $test.$a;
+    
+    //GET 방식으로 변수를 받아올때는 URL에 ?변수명=값 
+    //연이어 다른변수를 받을 때는 &를 붙여서 같은 형식 ! 
+
     ?>
 </body>
 </html>
